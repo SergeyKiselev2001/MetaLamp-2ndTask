@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+.header .header__logo {
+  width: 550px;
+  height: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__logo .header__logo_logo-text {
+  font-size: 40px;
+  font-family: 'Glory', sans-serif;
+}
+
+.header .header__logo .header__logo_logo-text .tri {
+  color: #007fad;
+}
+
+.header .header__logo .header__logo_logo-text .va {
+  color: #f48f00;
+}
+
+.header .header__logo .header__logo_logo-text .go {
+  color: #c94a30;
+}
+
+.header .header__links {
+  width: 550px;
+  height: 100%;
+  color: #292929;
+}
+
+.header .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header .links .links__item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .links .links__item .links__item_dropdown {
+  margin: 5px;
+  margin-top: 8px;
+  height: 15px;
+  width: 15px;
+  background: url("../public/dropdown.png");
+}
+
+.header .header__buttons {
+  margin-left: 20px;
+  width: 400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header .header__buttons .wrapper-header__buttons_signup {
+  -webkit-transition: .1s;
+  transition: .1s;
+  border-radius: 25px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBC9FF), to(#8CA4FA));
+  background-image: linear-gradient(#BBC9FF, #8CA4FA);
+  padding: 3px;
+}
+
+.header .header__buttons .wrapper-header__buttons_signup .header__buttons_signup {
+  padding: 7px 28px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  cursor: pointer;
+  color: #A3B6FC;
+  display: table;
+}
+
+.header .header__buttons .wrapper-header__buttons_signup:hover {
+  color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+  background-image: linear-gradient(#ffffff, #ffffff);
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+.header .header__buttons .wrapper-header__buttons_signup:hover .header__buttons_signup {
+  color: black;
+}
+
+.header .header__buttons .header__buttons_signin {
+  padding: 10px 28px;
+  border-radius: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  color: #FFF;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBC9FF), to(#8CA4FA));
+  background-image: linear-gradient(#BBC9FF, #8CA4FA);
+}
+
+.header .header__buttons .header__buttons_signin:hover {
+  color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+  background-image: linear-gradient(#ffffff, #ffffff);
+  -webkit-box-shadow: 0 0 10px black;
+          box-shadow: 0 0 10px black;
+}
+
+.content {
+  overflow: hidden;
+  background-image: url(../public/bg-image.jpg);
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  padding: 0;
+}
+
+.footer-upper {
+  position: absolute;
+  width: 100%;
+  height: 372px;
+  left: 0px;
+  top: 900px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+          box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+}
+
+.footer-lower {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: -1px;
+  top: 1273px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+/*# sourceMappingURL=style.css.map */
