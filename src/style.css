@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:&display=swap");
 body {
   padding: 0;
   margin: 0;
@@ -67,6 +67,7 @@ body {
           justify-content: space-between;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
 
 .header .links .links__item {
@@ -160,6 +161,78 @@ body {
   height: 100vh;
   z-index: 1;
   padding: 0;
+}
+
+.content .content__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 380px;
+  height: 374px;
+  left: 140px;
+  top: 240px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
+  border-radius: 5px;
+  padding: 40px 30px;
+}
+
+.content .content__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 900;
+}
+
+.content .content__inputs {
+  margin: 10px 0px;
+  height: 270px;
+  background-color: brown;
+}
+
+.content .content__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin-top: 355px;
+  margin-left: 110px;
+}
+
+.content .content__button button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#BBC9FF), to(#8CA4FA));
+  background-image: linear-gradient(#BBC9FF, #8CA4FA);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
 }
 
 .footer-upper {

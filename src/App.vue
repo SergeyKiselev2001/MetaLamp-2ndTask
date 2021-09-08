@@ -35,7 +35,17 @@
     </div>
   </div>
   <div class="content">
+    <div class="content__card">
+      <div class="content__title">
+        Найдем номера под ваши желания
+      </div>
+      <div class="content__inputs">
 
+      </div>
+      <div class="content__button">
+        <button>ПОДОБРАТЬ НОМЕР</button>
+      </div>
+    </div>
   </div>
 
   <div class="footer">
